@@ -7,14 +7,14 @@
 **<**: 파일로부터 입력을 리디렉션할 수 있다.( '<' 와 '>' 같이 쓸 수 있음)
 
 ---
-- |: command1|commad2 -> command1의 Output을 받아 그대로 command2에 대한 Input으로 넣어줌
-- ls | wc -l: 현재 directory 안에 있는 file의 개수 확인 가능
+ |: command1|commad2 -> command1의 Output을 받아 그대로 command2에 대한 Input으로 넣어줌
+ ls | wc -l: 현재 directory 안에 있는 file의 개수 확인 가능
 
-- echo:echo 뒤에 오는 내용을 그대로 출력한다.
-- echo *: 모두 출력한다
-- echo ~: 현재 사용자의 홈 directory를 출력한다.
-- echo ~name: 특정 유저의 홈 directory를 출력한다.
-- Backslash(\\): Enter와 같은 기능
+ echo:echo 뒤에 오는 내용을 그대로 출력한다.
+ echo *: 모두 출력한다
+ echo ~: 현재 사용자의 홈 directory를 출력한다.
+ echo ~name: 특정 유저의 홈 directory를 출력한다.
+ Backslash(\\): Enter와 같은 기능
 ---
 ### Permissions
 Linux: 서로의 file을 건드리거나 권한이 없는 사람이 어떤 권한을 가지고 실행하는 문제를 방지하고자 리눅스에서는 file과 directory에다가 3단계로 구분되는 명확한 권한을 부여한다.
