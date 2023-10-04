@@ -26,18 +26,11 @@ chmod 600 some_file: 600은 권한, 그 뒤엔 권한을 변경할 file, directo
 0=000: do nothing
 0=000: do nothing
 
-
----
 Superuser라면 컴멘드 전에 'sudo' 넣을 것
-
 Shell script
 $ nano myscript.sh
-
 hostory: 전에 사용한 커멘드 볼 수 있음
-
 Superuser라면 컴멘드 전에 'sudo' 넣을 것
-
 Shell script
 $ nano myscript.sh
-
 hostory: 전에 사용한 커멘드 볼 수 있음
