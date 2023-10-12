@@ -14,7 +14,7 @@ commit된다는 것은 snapshots을 찍었다. 혹은 특정 version을 기록�
 
 ### Git config: First-time setup      
 **System level**: 모든 유저와 repository들에 영향을 줌
-**Global(User) level**: 현재 사용자의 모든 repository에 영향을 줌
+**Global(User) level**: 현재 사용자의 모든 repository에 영향을 줌  
 **Local level**: version control 위에서 만든 repositorty 안에서만 적용된다는 내용임
 system->global->local: 뒤에 가는 것들이 앞의 것을 덮어쓴다.
 
