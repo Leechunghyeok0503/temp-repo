@@ -1,6 +1,6 @@
 # Lecture 6
 
-### Changes VS Snnapshots  
+### Changes VS Snapshots  
 Version control: 시간이 지남에 따라 어떤 version들에 대한 기록을 하는 것  
 **CHanges**: 각각의 Version에서 시점을 복구할 때 Base version에 change들을 누적시켜 가면서 복구하는 방식  
 **Snapshots**: GIT에서 많이 쓰이는 방식으로 각각의 version에서 file 전체에 대한 정보를 그대로 전환한다.  
